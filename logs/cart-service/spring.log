@@ -1,0 +1,40 @@
+14:36:25:080  INFO 9808 --- [main] com.hmall.cart.CartApplication           : Starting CartApplication using Java 11.0.26 on WIN-G3HHT1TM0MA with PID 9808 (D:\Project\hmall\cart-service\target\classes started by Administrator in D:\Project\hmall)
+14:36:25:085 DEBUG 9808 --- [main] com.hmall.cart.CartApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+14:36:25:085  INFO 9808 --- [main] com.hmall.cart.CartApplication           : The following 1 profile is active: "local"
+14:36:26:620  INFO 9808 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=3eef8d73-60f3-3978-bd05-69f3caec6769
+14:36:27:151  INFO 9808 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+14:36:27:163  INFO 9808 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+14:36:27:164  INFO 9808 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+14:36:27:315  INFO 9808 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+14:36:27:315  INFO 9808 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2119 ms
+14:36:27:584  INFO 9808 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'item-service' URL not provided. Will try picking an instance via load-balancing.
+14:36:30:736  INFO 9808 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+14:36:30:786  INFO 9808 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+14:36:32:063  INFO 9808 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+14:36:32:596  INFO 9808 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 34ac56e6-3edd-4fcc-850c-486b5d7d0876
+14:36:32:707  INFO 9808 --- [main] org.reflections.Reflections              : Reflections took 69 ms to scan 1 urls, producing 3 keys and 6 values 
+14:36:32:781  INFO 9808 --- [main] org.reflections.Reflections              : Reflections took 28 ms to scan 1 urls, producing 4 keys and 9 values 
+14:36:32:818  INFO 9808 --- [main] org.reflections.Reflections              : Reflections took 23 ms to scan 1 urls, producing 3 keys and 10 values 
+14:36:32:827  WARN 9808 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+14:36:32:842  INFO 9808 --- [main] org.reflections.Reflections              : Reflections took 15 ms to scan 1 urls, producing 1 keys and 5 values 
+14:36:32:861  INFO 9808 --- [main] org.reflections.Reflections              : Reflections took 16 ms to scan 1 urls, producing 1 keys and 7 values 
+14:36:32:878  INFO 9808 --- [main] org.reflections.Reflections              : Reflections took 14 ms to scan 1 urls, producing 2 keys and 8 values 
+14:36:32:882  WARN 9808 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+14:36:32:890  INFO 9808 --- [main] com.alibaba.nacos.common.remote.client   : [34ac56e6-3edd-4fcc-850c-486b5d7d0876] RpcClient init label, labels = {module=naming, source=sdk}
+14:36:32:892  INFO 9808 --- [main] com.alibaba.nacos.common.remote.client   : [34ac56e6-3edd-4fcc-850c-486b5d7d0876] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+14:36:32:893  INFO 9808 --- [main] com.alibaba.nacos.common.remote.client   : [34ac56e6-3edd-4fcc-850c-486b5d7d0876] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+14:36:32:893  INFO 9808 --- [main] com.alibaba.nacos.common.remote.client   : [34ac56e6-3edd-4fcc-850c-486b5d7d0876] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+14:36:32:895  INFO 9808 --- [main] com.alibaba.nacos.common.remote.client   : [34ac56e6-3edd-4fcc-850c-486b5d7d0876] Try to connect to server on start up, server: {serverIp = '192.168.1.33', server main port = 8848}
+14:36:34:310  INFO 9808 --- [main] com.alibaba.nacos.common.remote.client   : [34ac56e6-3edd-4fcc-850c-486b5d7d0876] Success to connect to server [192.168.1.33:8848] on start up, connectionId = 1751265395069_192.168.1.114_63500
+14:36:34:311  INFO 9808 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [34ac56e6-3edd-4fcc-850c-486b5d7d0876] Notify connected event to listeners.
+14:36:34:312  INFO 9808 --- [main] com.alibaba.nacos.common.remote.client   : [34ac56e6-3edd-4fcc-850c-486b5d7d0876] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+14:36:34:313  INFO 9808 --- [main] com.alibaba.nacos.common.remote.client   : [34ac56e6-3edd-4fcc-850c-486b5d7d0876] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$989/0x00000008006fd040
+14:36:34:390  INFO 9808 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+14:36:34:406  INFO 9808 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP cart-service 192.168.217.1:8082 register finished
+14:36:34:954  INFO 9808 --- [nacos-grpc-client-executor-5] com.alibaba.nacos.common.remote.client   : [34ac56e6-3edd-4fcc-850c-486b5d7d0876] Receive server push request, request = NotifySubscriberRequest, requestId = 7
+14:36:34:962  INFO 9808 --- [nacos-grpc-client-executor-5] com.alibaba.nacos.common.remote.client   : [34ac56e6-3edd-4fcc-850c-486b5d7d0876] Ack server push request, request = NotifySubscriberRequest, requestId = 7
+14:36:35:533  INFO 9808 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+14:36:35:534  INFO 9808 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+14:36:35:538  INFO 9808 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+14:36:35:619  INFO 9808 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+14:36:35:792  INFO 9808 --- [main] com.hmall.cart.CartApplication           : Started CartApplication in 12.712 seconds (JVM running for 14.217)

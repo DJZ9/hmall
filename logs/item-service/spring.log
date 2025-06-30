@@ -1,0 +1,39 @@
+14:36:53:030  INFO 9828 --- [main] com.hmall.item.ItemApplication           : Starting ItemApplication using Java 11.0.26 on WIN-G3HHT1TM0MA with PID 9828 (D:\Project\hmall\item-service\target\classes started by Administrator in D:\Project\hmall)
+14:36:53:035 DEBUG 9828 --- [main] com.hmall.item.ItemApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+14:36:53:036  INFO 9828 --- [main] com.hmall.item.ItemApplication           : The following 1 profile is active: "local"
+14:36:54:606  INFO 9828 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=a57a656f-4d01-376a-ad56-f554d27095c3
+14:36:55:123  INFO 9828 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+14:36:55:137  INFO 9828 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+14:36:55:137  INFO 9828 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+14:36:55:323  INFO 9828 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+14:36:55:323  INFO 9828 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2227 ms
+14:36:58:552  INFO 9828 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+14:36:58:648  INFO 9828 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+14:36:59:881  INFO 9828 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+14:37:00:386  INFO 9828 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of e174b0a7-4c05-4930-bd1c-19a5fa21fe14
+14:37:00:462  INFO 9828 --- [main] org.reflections.Reflections              : Reflections took 44 ms to scan 1 urls, producing 3 keys and 6 values 
+14:37:00:506  INFO 9828 --- [main] org.reflections.Reflections              : Reflections took 19 ms to scan 1 urls, producing 4 keys and 9 values 
+14:37:00:523  INFO 9828 --- [main] org.reflections.Reflections              : Reflections took 12 ms to scan 1 urls, producing 3 keys and 10 values 
+14:37:00:528  WARN 9828 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+14:37:00:549  INFO 9828 --- [main] org.reflections.Reflections              : Reflections took 20 ms to scan 1 urls, producing 1 keys and 5 values 
+14:37:00:567  INFO 9828 --- [main] org.reflections.Reflections              : Reflections took 13 ms to scan 1 urls, producing 1 keys and 7 values 
+14:37:00:582  INFO 9828 --- [main] org.reflections.Reflections              : Reflections took 12 ms to scan 1 urls, producing 2 keys and 8 values 
+14:37:00:586  WARN 9828 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+14:37:00:587  INFO 9828 --- [main] com.alibaba.nacos.common.remote.client   : [e174b0a7-4c05-4930-bd1c-19a5fa21fe14] RpcClient init label, labels = {module=naming, source=sdk}
+14:37:00:591  INFO 9828 --- [main] com.alibaba.nacos.common.remote.client   : [e174b0a7-4c05-4930-bd1c-19a5fa21fe14] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+14:37:00:592  INFO 9828 --- [main] com.alibaba.nacos.common.remote.client   : [e174b0a7-4c05-4930-bd1c-19a5fa21fe14] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+14:37:00:594  INFO 9828 --- [main] com.alibaba.nacos.common.remote.client   : [e174b0a7-4c05-4930-bd1c-19a5fa21fe14] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+14:37:00:596  INFO 9828 --- [main] com.alibaba.nacos.common.remote.client   : [e174b0a7-4c05-4930-bd1c-19a5fa21fe14] Try to connect to server on start up, server: {serverIp = '192.168.1.33', server main port = 8848}
+14:37:02:188  INFO 9828 --- [main] com.alibaba.nacos.common.remote.client   : [e174b0a7-4c05-4930-bd1c-19a5fa21fe14] Success to connect to server [192.168.1.33:8848] on start up, connectionId = 1751265422901_192.168.1.114_63555
+14:37:02:195  INFO 9828 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [e174b0a7-4c05-4930-bd1c-19a5fa21fe14] Notify connected event to listeners.
+14:37:02:196  INFO 9828 --- [main] com.alibaba.nacos.common.remote.client   : [e174b0a7-4c05-4930-bd1c-19a5fa21fe14] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+14:37:02:197  INFO 9828 --- [main] com.alibaba.nacos.common.remote.client   : [e174b0a7-4c05-4930-bd1c-19a5fa21fe14] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$935/0x00000008006ce440
+14:37:02:285  INFO 9828 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+14:37:02:304  INFO 9828 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP item-service 192.168.217.1:8081 register finished
+14:37:02:816  INFO 9828 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [e174b0a7-4c05-4930-bd1c-19a5fa21fe14] Receive server push request, request = NotifySubscriberRequest, requestId = 10
+14:37:02:820  INFO 9828 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [e174b0a7-4c05-4930-bd1c-19a5fa21fe14] Ack server push request, request = NotifySubscriberRequest, requestId = 10
+14:37:03:454  INFO 9828 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+14:37:03:459  INFO 9828 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+14:37:03:465  INFO 9828 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+14:37:03:516  INFO 9828 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+14:37:03:853  INFO 9828 --- [main] com.hmall.item.ItemApplication           : Started ItemApplication in 12.668 seconds (JVM running for 13.552)
